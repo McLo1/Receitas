@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: coral;
+    padding: 15px;
+    margin-bottom: 30px;
+}
+
+header .ContainerDiv {
+    text-align: center;
+}
+
+body {
+    background-color: bisque;
+}
+
+h2 {
+    text-align: center;
+}
+
+hr {
+    border: 1px solid rgba(0, 0, 0, 0.598);
+    width: 100%;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 700px;
+    gap: 05px;
+    background-color: rgb(41, 40, 40);
+    padding: 35px;
+    border-radius: 15px;
+    margin: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+input {
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+}
+
+textarea {
+    padding: 30px;
+    text-align: start;
+    border-radius: 5px;
+}
+
+
+.FormPreenchimento {
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+    background-color: rgb(120, 119, 118);
+    padding: 30px;
+    border-radius: 15px;
+    margin-bottom: 15px;
+}
+
+
+html, body {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+
+li {
+    background-color: coral;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 1px solid black;
+    border-radius: 15px;
+    filter: drop-shadow(2px 2px 2px);
+    width: 700px; /* Diminuindo um pouco para uniformizar */
+    max-width: 90%; /* Mantém responsivo */
+    margin: 15px auto;
+    list-style: none;
+}
+
+footer {
+    background-color: coral;
+    text-align: center;
+    padding: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.FavoritarReceita{
+    padding: 25px;
+    background-color: aqua;
+}

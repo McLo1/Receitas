@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="Modal.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <header>
+        <div class="ContainerDiv">
+            <h1>Receitas Online</h1>
+            <p>Guarde as suas receitas aqui, fique a vontade para adicionar uma nova receita
+                e mante-la salva de forma online</p>
+        </div>
+    </header>
+
+    <main>
+
+        <button id="Adicionar_Receita" type="button" onclick="Abrirmodal()">+</button>
+
+        <h2>Receitas Favoritadas</h2>
+        <ul id="ReceitasFavoritadas">
+            <!--Receitas Favoritadas-->
+        </ul>
+
+        <hr>
+
+        <h2>Receitas adicionadas</h2>
+        <ul id="ReceitasAdicionadas">
+            <!--Receitas Adicionadas-->
+        </ul>
+
+        <div class="modal" id="meuModal">
+
+            <form id="FormReceita">
+
+                <button type="button" id="FecharModal" onclick="Fecharmodal()">X</button>
+                <h1 id="New_Receita">Adicionar Receita</h1>
+
+                <div class="FormPreenchimento">
+                    <label for="Receita_Nome">Nome da Receita</label>
+                    <input type="text" name="Nome Receita" id="Receita_Nome">
+                </div>
+
+                <div class="FormPreenchimento">
+                    <label for="Desc_Receita">Descrição da Receita</label>
+                    <textarea name="Descrição Receita" id="Desc_Receita"></textarea>
+                </div>
+
+                <input type="submit" value="Salvar Receita" id="Salvar_Receita">
+
+            </form>
+        </div>
+
+
+    </main>
+
+    <footer>
+        <p>&copy;Feito por Marcelo Ferreira Fullstack Developer, todos os diretos reservados</p>
+    </footer>
+    
+
+    <script src="script.js"></script>
+</body>
+
+</html>

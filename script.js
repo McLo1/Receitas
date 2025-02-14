@@ -34,7 +34,7 @@ form.addEventListener("submit", function (event) {
 
     const listaReceitasFavoritos = document.getElementById("ReceitasFavoritadas");
     const botãoFavoritos = document.createElement("button");
-    botãoFavoritos.classList.add = ("FavoritarReceita");
+    botãoFavoritos.classList.add("FavoritarReceita");
     botãoFavoritos.textContent = "☆";
     
     botãoFavoritos.addEventListener("click", () => {
@@ -50,7 +50,7 @@ form.addEventListener("submit", function (event) {
     });
 
     const botãoExcluirReceita = document.createElement("button");
-    botãoExcluirReceita.classList.add = "botãoExcluirReceita";
+    botãoExcluirReceita.classList.add("botãoExcluirReceita");
     botãoExcluirReceita.textContent = "X";
     
     botãoExcluirReceita.addEventListener("click", () => {

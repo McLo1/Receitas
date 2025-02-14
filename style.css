@@ -91,6 +91,17 @@ footer {
 }
 
 .FavoritarReceita{
-    padding: 25px;
-    background-color: aqua;
+    padding: 10px 12px;
+    background-color: yellow;
+    color: black;
+    margin-right: 10px;
+    border-radius: 7px;
+}
+
+.botãoExcluirReceita{
+    padding: 10px 13px;
+    background-color: red;
+    color: #000;
+    border-radius: 7px;
+
 }

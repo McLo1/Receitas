@@ -96,6 +96,12 @@ footer {
     color: black;
     margin-right: 10px;
     border-radius: 7px;
+    cursor: pointer;
+}
+
+.FavoritarReceita:hover{
+    background-color: rgb(196, 196, 4);
+    transition: 0.5s ease;
 }
 
 .botãoExcluirReceita{
@@ -103,5 +109,10 @@ footer {
     background-color: red;
     color: #000;
     border-radius: 7px;
+    cursor: pointer;
+}
 
+.botãoExcluirReceita:hover{
+    background-color: rgb(160, 3, 3);
+    transition: 0.5s ease;
 }

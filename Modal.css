@@ -3,6 +3,7 @@ main {
     display: flex;
     flex-direction: column;
     align-items: center;
+    width: 100%;
 }
 
 
@@ -43,8 +44,7 @@ main {
     background-color: rgb(14, 184, 14);
     color: white;
     padding: 15px 18px;
-    position: fixed;
-    transform: translate(595px, 300px);
+    
 }
 
 #Adicionar_Receita:hover{
@@ -63,3 +63,4 @@ main {
     width: 350px;
     padding: 20px;
 }
+

@@ -40,19 +40,25 @@ main {
 }
 
 
-#Adicionar_Receita{
-    background-color: rgb(14, 184, 14);
+#Adicionar_Receita {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    padding: 15px 20px;
+    background-color: rgb(78, 207, 39);
     color: white;
-    padding: 15px 18px;
-    
-}
-
-#Adicionar_Receita:hover{
-    background-color: rgb(8, 151, 8);
-    transition: 0.3s ease;
+    font-weight: bold;
+    border: none;
+    border-radius: 30px;
+    box-shadow: 2px 2px 8px rgba(0,0,0,0.3);
     cursor: pointer;
+    z-index: 1000;
 }
 
+#Adicionar_Receita:hover {
+    background-color: rgb(63, 168, 31);
+    transition: background-color 0.3s ease;
+}
 
 .modal {
     display: none;
